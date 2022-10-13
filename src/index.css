@@ -36,14 +36,14 @@ body {
 
 .menu h1 {
   color: rgb(134, 134, 134);
-  font-size: clamp(10px, 3vw, 30px);
+  font-size: clamp(10px, 3vw, 40px);
   grid-area: 1/ 1/ span 1/ span 1;
 
 }
 
 .menu h2 {
   color: black;
-  font-size: clamp(20px, 5vw, 50px);
+  font-size: clamp(20px, 5vw, 60px);
   grid-area: 2/ 1/ span 1/ span 1;
 }
 

@@ -1,9 +1,9 @@
 import profile from '../components/profile.png';
 import Dropdownmenu from './Dropdownmenu';
 
+const level = 1;
 
-
-const header = ({level}) => {
+const header = () => {
   return (
     <div>
         <div class="menu">
@@ -17,7 +17,7 @@ const header = ({level}) => {
             </div>
         </div>
     </div>
-  )
+  );
 }
 
 export default header
