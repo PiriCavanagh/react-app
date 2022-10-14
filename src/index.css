@@ -2,8 +2,10 @@
   --pirigreen: #82ffac;
   --hospitalgreen: #5cb8ae;
   --pirired: #ff5e5e;
+  --olired: #ff0000;
   --pirilightgreen: #e1f5f3;
   --piriblue: #37ade0;
+  --pirilightblue: #71cdf5;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -43,7 +45,7 @@ body {
 
 .menu h2 {
   color: black;
-  font-size: clamp(20px, 5vw, 60px);
+  font-size: clamp(20px, 4vw, 60px);
   grid-area: 2/ 1/ span 1/ span 1;
 }
 
@@ -101,7 +103,7 @@ body {
 }
 
 .changelevel {
-  padding: 50px;
+  margin-bottom: 40px;
 }
 
 .leveltitle {
@@ -590,4 +592,43 @@ body {
   font-size: 17px;
   width: 80px;
   height: 50px;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+.footer {
+	background-color: #f4f4f4;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+.footer h1{
+  margin: 20px;
+}
+.footer h2{
+  margin: 10px;
+}
+.progress {
+	background-color: #d8d8d8;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 300px;
+}
+
+.progress-done {
+	background: linear-gradient(to left, var(--olired), var(--pirired));
+	box-shadow: 0 3px 3px -5px var(--olired), 0 2px 5px var(--olired);
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
 }
