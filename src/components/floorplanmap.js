@@ -2,7 +2,7 @@
 const floorplanmap = () => {
   return (
     <div class="map">
-      <div class="room101"><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">101</button></div>
+      <div class="room101"><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Room 101">101</button></div>
       <div class="room102"><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">102</button></div>
       <div class="room103"><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">103</button></div>
       <div class="room104"><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">104</button></div>
@@ -28,7 +28,10 @@ const floorplanmap = () => {
       <div class="whitespace3"></div>
       <div class="whitespace4"></div>
       <div class="whitespace5"></div>
+
     </div>
+    
+    
   );
 }
 
