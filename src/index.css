@@ -414,7 +414,18 @@ body {
   padding: 10px;
 }
 .whitespace3{
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   grid-area: 4/4/span 2/span 4;
+  border: 2px solid var(--hospitalgreen);
+}
+.whitespace4{
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  grid-area: 7/4/span 2/span 2;
+  border: 2px solid var(--hospitalgreen);
+}
+.whitespace5{
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  grid-area: 7/6/span 2/span 2;
   border: 2px solid var(--hospitalgreen);
 }
 .room112 a {
