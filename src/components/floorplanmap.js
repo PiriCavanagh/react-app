@@ -3,7 +3,7 @@ const floorplanmap = () => {
   
   return (
     <div class="map">
-      <div class="room101"><button type="button" class="buttonred"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Room 101">101</button></div>
+      <div class="room101"><button type="button" class="buttonred"  data-bs-toggle="modal" data-bs-target="InfoModal" data-bs-whatever="Room 101">101</button></div>
       <div class="room102"><button type="button" class="buttongreen"data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Room 102">102</button></div>
       <div class="room103"><button type="button" class="buttonred"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Room 103">103</button></div>
       <div class="room104"><button type="button" class="buttongreen"data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Room 104">104</button></div>
@@ -59,6 +59,23 @@ const floorplanmap = () => {
     
     
   );
+}
+
+const exampleModal = document.getElementById('exampleModal')
+if (exampleModal) {
+  exampleModal.addEventListener('show.bs.modal', event => {
+    // Button that triggered the modal
+    const button = event.relatedTarget
+    // Extract info from data-bs-* attributes
+    const recipient = button.getAttribute('data-bs-whatever')
+
+    // Update the modal's content.
+    const modalTitle = exampleModal.querySelector('.modal-title')
+    const modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+    modalTitle.textContent = `New message to ${recipient}`
+    modalBodyInput.value = recipient
+  })
 }
 
 
