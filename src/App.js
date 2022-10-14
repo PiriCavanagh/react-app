@@ -3,19 +3,16 @@ import Levelmenu from './components/levelmenu';
 import Floorplanmap from './components/floorplanmap';
 import Footer from './components/footer';
 import InfoModal from './components/infoModal';
+import Main from './components/Main';
+
 
 
 
 
 function App() {
   return (
-    <div className='container'>
-      <Header />
-      <Levelmenu />
-      <Floorplanmap />
-      <infoModal />
-      <footer />
-      <Footer done="70"/>
+    <div className="App">
+      <Main />
     </div>
   );
 }

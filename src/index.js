@@ -1,18 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+import Header from './components/Header';
+import Levelmenu from './components/levelmenu';
+import Floorplanmap from './components/floorplanmap';
+import Footer from './components/footer';
+import InfoModal from './components/infoModal';
+import Main from './components/Main';
 
 
 
 
-reportWebVitals();
+
+function Index() {
+  return (
+    <div className='container'>
+      <Header />
+      <Levelmenu />
+      <Floorplanmap />
+    </div>
+  );
+}
+
+export default Index;
+ 
