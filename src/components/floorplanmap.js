@@ -28,7 +28,10 @@ const floorplanmap = () => {
       <div class="whitespace3"></div>
       <div class="whitespace4"></div>
       <div class="whitespace5"></div>
+
     </div>
+    
+    
   );
 }
 
