@@ -22,7 +22,7 @@
 html,
 body {
   background: linear-gradient(to top left, white, #e1f5f3);
-  height: 100%;
+  height: 115%;
 }
 
 .menu {
@@ -173,15 +173,16 @@ body {
 }
 
 .footer {
+
   margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-color: red;
 }
 
 .footer h2 {
-
   height: 50px;
   font-size: clamp(10px, 5vw, 30px);
 }
@@ -218,6 +219,7 @@ body {
 }
 
 .room101 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   border-top-left-radius: 20px;
   display: flex;
   justify-content: center;
@@ -235,7 +237,7 @@ body {
 }
 
 .room102 {
-
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -252,6 +254,7 @@ body {
 }
 
 .room103 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -268,6 +271,7 @@ body {
 }
 
 .room104 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -284,6 +288,7 @@ body {
 }
 
 .room105 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -300,6 +305,7 @@ body {
 }
 
 .room106 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -316,6 +322,7 @@ body {
 }
 
 .room107 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,6 +339,7 @@ body {
 }
 
 .room108 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,6 +366,7 @@ body {
 }
 
 .room109 {
+  box-shadow: inset 3px 3px 10px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -373,6 +382,7 @@ body {
   padding: 10px;
 }
 .room110 {
+  box-shadow: inset 3px 3px 10px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -388,6 +398,7 @@ body {
   padding: 10px;
 }
 .room111 {
+  box-shadow: inset 3px 3px 10px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -415,6 +426,7 @@ body {
   padding: 10px;
 }
 .room112 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   border-top-right-radius: 10px;
   display: flex;
   justify-content: center;
@@ -431,6 +443,7 @@ body {
   padding: 10px;
 }
 .room113 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -446,6 +459,7 @@ body {
   padding: 10px;
 }
 .room114 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -461,6 +475,7 @@ body {
   padding: 10px;
 }
 .room115 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -476,6 +491,7 @@ body {
   padding: 10px;
 }
 .room116 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -491,6 +507,7 @@ body {
   padding: 10px;
 }
 .room117 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -506,6 +523,7 @@ body {
   padding: 10px;
 }
 .room118 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -521,6 +539,7 @@ body {
   padding: 10px;
 }
 .room119 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -536,6 +555,7 @@ body {
   padding: 10px;
 }
 .room120 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -551,6 +571,7 @@ body {
   padding: 10px;
 }
 .room121 {
+  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
   display: flex;
   justify-content: center;
   align-items: center;
