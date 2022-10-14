@@ -1,7 +1,7 @@
 import Header from './components/Header';
 import Levelmenu from './components/levelmenu';
-import floorplanmap from './components/floorplanmap';
-import footer from './components/footer';
+import Floorplanmap from './components/floorplanmap';
+import Footer from './components/footer';
 
 
 
@@ -11,8 +11,7 @@ function App() {
     <div className='container'>
       <Header />
       <Levelmenu />
-      <floorplanmap />
-      <footer />
+      <Floorplanmap />
     </div>
   );
 }
