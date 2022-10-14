@@ -12,6 +12,7 @@ function App() {
       <Header />
       <Levelmenu />
       <Floorplanmap />
+      <footer />
     </div>
   );
 }
