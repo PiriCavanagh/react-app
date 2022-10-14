@@ -1,6 +1,7 @@
+
 const footer = ({done}) =>{
   return (
-    <div class="footer">
+    <div id="footer">
       <h1>Click on the lights to view room info</h1>
       <h2>Available: 7 rooms 33%</h2>
       <div class="progress">
@@ -16,3 +17,4 @@ const footer = ({done}) =>{
 }
 
 export default footer
+

@@ -171,15 +171,12 @@ body {
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
 }
-
-.footer {
-
-  margin-top: 10px;
+#footer{
+  background: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  background-color: red;
 }
 
 .footer h2 {
@@ -628,21 +625,15 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 
-.footer {
-	background-color: #f4f4f4;
-	flex-direction: column;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin: 0;
-}
-.footer h1{
+
+#footer h1{
   margin: 20px;
 }
 .footer h2{
   margin: 10px;
 }
 .progress {
+  border: solid 2px var(--hospitalgreen);
 	background-color: #d8d8d8;
 	border-radius: 20px;
 	position: relative;
@@ -652,8 +643,8 @@ body {
 }
 
 .progress-done {
-	background: linear-gradient(to left, var(--olired), var(--pirired));
-	box-shadow: 0 3px 3px -5px var(--olired), 0 2px 5px var(--olired);
+	background: linear-gradient(to left, #56d6c8, var(--hospitalgreen));
+	box-shadow: 0 3px 3px -5px var(--hospitalgreen), 0 2px 5px var(--hospitalgreen);
 	border-radius: 20px;
 	color: #fff;
 	display: flex;
