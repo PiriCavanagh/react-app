@@ -1,15 +1,16 @@
-
-const footer = () => {
+const footer = ({done}) =>{
   return (
     <div class="footer">
-        <h2>click on the lights to view room info</h2>
-        <h3>Available: 7 rooms</h3>
-        <div class="progress" style="height: 30px; border-radius: 50px; background-color: #ff5e5e">
-            <div class="progress-bar" role="progressbar" aria-label="Example 20px high"
-                style="width: 33%; background-color: #82ffac;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                <h1>33%</h1>
-            </div>
+      <h1>Click on the lights to view room info</h1>
+      <h2>Available: 7 rooms 33%</h2>
+      <div class="progress">
+        <div class="progress-done" style={{
+          opacity: 1,
+          width: 200
+        }}>
+          {done}%
         </div>
+      </div>
     </div>
   );
 }

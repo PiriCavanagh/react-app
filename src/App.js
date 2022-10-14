@@ -13,8 +13,9 @@ function App() {
       <Header />
       <Levelmenu />
       <Floorplanmap />
-      <InfoModal />
+      <infoModal />
       <footer />
+      <Footer done="70"/>
     </div>
   );
 }
