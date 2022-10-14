@@ -555,18 +555,39 @@ body {
   border: 2px solid var(--hospitalgreen);
   grid-area: 8/3/span 1/span 1;
 }
-.btn{
+.buttongreen{
+  border: none;
+  border-radius: 10px;
   background-color: var(--pirigreen);
+  margin: 10px;
   font-family: sans-serif;
   font-weight: 700 !important;
   font-size: 15px;
   width: 70px;
   height: 40px;
-  margin: 10px;
   transition: all 300ms ease-in-out;
 }
-.btn:hover{
-  text-decoration: none;
+.buttongreen:hover{
   background-color: var(--pirigreen);
-  font-size: 18px;
+  font-size: 17px;
+  width: 80px;
+  height: 50px;
+}
+.buttonred{
+  border: none;
+  border-radius: 10px;
+  background-color: var(--pirired);
+  margin: 10px;
+  font-family: sans-serif;
+  font-weight: 700 !important;
+  font-size: 15px;
+  width: 70px;
+  height: 40px;
+  transition: all 300ms ease-in-out;
+}
+.buttonred:hover{
+  background-color: var(--pirired);
+  font-size: 17px;
+  width: 80px;
+  height: 50px;
 }
