@@ -1,4 +1,3 @@
-
 const floorplanmap = () => {
   return (
     <div class="map">
