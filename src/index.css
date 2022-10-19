@@ -171,7 +171,8 @@ body {
   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
 }
-#footer{
+
+#footer {
   background: none;
   display: flex;
   flex-direction: column;
@@ -216,7 +217,7 @@ body {
 }
 
 .room101 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   border-top-left-radius: 20px;
   display: flex;
   justify-content: center;
@@ -234,7 +235,7 @@ body {
 }
 
 .room102 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -251,7 +252,7 @@ body {
 }
 
 .room103 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -268,7 +269,7 @@ body {
 }
 
 .room104 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -285,7 +286,7 @@ body {
 }
 
 .room105 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -302,7 +303,7 @@ body {
 }
 
 .room106 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -319,7 +320,7 @@ body {
 }
 
 .room107 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -336,7 +337,7 @@ body {
 }
 
 .room108 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -363,7 +364,7 @@ body {
 }
 
 .room109 {
-  box-shadow: inset 3px 3px 10px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 10px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -378,8 +379,9 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room110 {
-  box-shadow: inset 3px 3px 10px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 10px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -394,8 +396,9 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room111 {
-  box-shadow: inset 3px 3px 10px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 10px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -410,21 +413,25 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
-.whitespace3{
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+
+.whitespace3 {
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   grid-area: 4/4/span 2/span 4;
   border: 2px solid var(--hospitalgreen);
 }
-.whitespace4{
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+
+.whitespace4 {
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   grid-area: 7/4/span 2/span 2;
   border: 2px solid var(--hospitalgreen);
 }
-.whitespace5{
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+
+.whitespace5 {
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   grid-area: 7/6/span 2/span 2;
   border: 2px solid var(--hospitalgreen);
 }
+
 .room112 a {
   border-top-right-radius: 10px;
   text-decoration: none;
@@ -433,8 +440,9 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room112 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   border-top-right-radius: 10px;
   display: flex;
   justify-content: center;
@@ -442,6 +450,7 @@ body {
   border: 2px solid var(--hospitalgreen);
   grid-area: 1/10/span 1/span 1;
 }
+
 .room113 a {
 
   text-decoration: none;
@@ -450,14 +459,16 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room113 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--hospitalgreen);
   grid-area: 2/10/span 1/span 1;
 }
+
 .room114 a {
 
   text-decoration: none;
@@ -466,14 +477,16 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room114 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--hospitalgreen);
   grid-area: 3/10/span 1/span 1;
 }
+
 .room115 a {
 
   text-decoration: none;
@@ -482,14 +495,16 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room115 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--hospitalgreen);
   grid-area: 4/10/span 1/span 1;
 }
+
 .room116 a {
 
   text-decoration: none;
@@ -498,14 +513,16 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room116 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--hospitalgreen);
   grid-area: 5/10/span 1/span 1;
 }
+
 .room117 a {
 
   text-decoration: none;
@@ -514,14 +531,16 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room117 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--hospitalgreen);
   grid-area: 6/10/span 1/span 1;
 }
+
 .room118 a {
 
   text-decoration: none;
@@ -530,14 +549,16 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room118 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--hospitalgreen);
   grid-area: 7/10/span 1/span 1;
 }
+
 .room119 a {
 
   text-decoration: none;
@@ -546,14 +567,16 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room119 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--hospitalgreen);
   grid-area: 8/10/span 1/span 1;
 }
+
 .room120 a {
 
   text-decoration: none;
@@ -562,14 +585,16 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room120 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--hospitalgreen);
   grid-area: 7/3/span 1/span 1;
 }
+
 .room121 a {
 
   text-decoration: none;
@@ -578,19 +603,22 @@ body {
   border-radius: 20px;
   padding: 10px;
 }
+
 .room121 {
-  box-shadow: inset 3px 3px 5px rgba(0,0,0,.1), 3px 3px 10px rgba(0,0,0,.1);
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .1), 3px 3px 10px rgba(0, 0, 0, .1);
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid var(--hospitalgreen);
   grid-area: 8/3/span 1/span 1;
 }
-.buttongreen{
+
+.buttongreen {
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: var(--pirigreen);
   margin: 10px;
+  padding: 10px;
   font-family: sans-serif;
   font-weight: 700 !important;
   font-size: 15px;
@@ -598,60 +626,47 @@ body {
   height: 40px;
   transition: all 300ms ease-in-out;
 }
-.buttongreen:hover{
+
+.buttongreen:hover {
   background-color: var(--pirigreen);
   font-size: 17px;
   width: 80px;
   height: 50px;
 }
-.buttonred{
-  border: none;
-  border-radius: 10px;
-  background-color: var(--pirired);
-  margin: 10px;
-  font-family: sans-serif;
-  font-weight: 700 !important;
-  font-size: 15px;
-  width: 70px;
-  height: 40px;
-  transition: all 300ms ease-in-out;
-}
-.buttonred:hover{
-  background-color: var(--pirired);
-  font-size: 17px;
-  width: 80px;
-  height: 50px;
-}
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 
 
-#footer h1{
+#footer h1 {
   margin: 20px;
+  justify-content: center;
 }
-.footer h2{
+
+.footer h2 {
   margin: 10px;
 }
+
 .progress {
   border: solid 2px var(--hospitalgreen);
-	background-color: #d8d8d8;
-	border-radius: 20px;
-	position: relative;
-	margin: 15px 0;
-	height: 30px;
-	width: 300px;
+  background-color: #d8d8d8;
+  border-radius: 20px;
+  position: relative;
+  margin: 15px 0;
+  height: 30px;
+  width: 300px;
 }
 
 .progress-done {
-	background: linear-gradient(to left, #56d6c8, var(--hospitalgreen));
-	box-shadow: 0 3px 3px -5px var(--hospitalgreen), 0 2px 5px var(--hospitalgreen);
-	border-radius: 20px;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	width: 0;
-	opacity: 0;
-	transition: 1s ease 0.3s;
+  background: linear-gradient(to left, #56d6c8, var(--hospitalgreen));
+  box-shadow: 0 3px 3px -5px var(--hospitalgreen), 0 2px 5px var(--hospitalgreen);
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+  transition: 1s ease 0.3s;
 }
