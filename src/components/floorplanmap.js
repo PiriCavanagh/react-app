@@ -1,9 +1,10 @@
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const floorplanmap = () => {
   
   return (
     <div class="map">
-      <div class="room101"><button type="button" class="buttonred"  data-bs-toggle="modal" data-bs-target="InfoModal" data-bs-whatever="Room 101">101</button></div>
+      <div class="room101"><Link to="/room">Room101</Link></div>
       <div class="room102"><button type="button" class="buttongreen"data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Room 102">102</button></div>
       <div class="room103"><button type="button" class="buttonred"  data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Room 103">103</button></div>
       <div class="room104"><button type="button" class="buttongreen"data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Room 104">104</button></div>
