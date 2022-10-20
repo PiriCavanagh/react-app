@@ -1,7 +1,7 @@
 import '../index.css'
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
-const Roomcomponent = ({fullname}) =>{
+const Roomcomponent = ({ fullname }) => {
     const styles = {
         fontSize: "10px",
         display: "flex",
@@ -9,7 +9,6 @@ const Roomcomponent = ({fullname}) =>{
         color: "black",
         border: "none",
         borderRadius: "10px",
-        backgroundColor: "#82ffac", 
         margin: "10px",
         fontFamily: "sans-serif",
         fontWeight: "700",
@@ -17,10 +16,10 @@ const Roomcomponent = ({fullname}) =>{
         width: "100px",
         height: "40px",
         transition: "all 300ms ease-in-out",
-      };
+    };
     return (
         <div class={fullname}>
-            <Link style={styles} to="/room" >{fullname}</Link>
+            <Link style={styles} to="/room">{fullname}</Link>
         </div>
     );
 }

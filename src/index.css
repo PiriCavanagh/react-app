@@ -1,4 +1,5 @@
 :root {
+  --piriorange: #f5f3e1;
   --pirigreen: #82ffac;
   --hospitalgreen: #5cb8ae;
   --pirired: #ff5e5e;
@@ -669,4 +670,285 @@ body {
   width: 0;
   opacity: 0;
   transition: 1s ease 0.3s;
+}
+
+.roominfo {
+  background-color: #5cb8ae;
+}
+
+.header {
+  height: 300px;
+}
+
+.header h1 {
+  color: lightgrey;
+  text-align: center;
+  font-size: 50px;
+}
+
+.headings {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  margin-bottom: 60px;
+}
+
+.headings h2 {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 80px;
+}
+
+.headings h3 {
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00ff00;
+  background-color: white;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+
+}
+
+.info {
+  box-shadow: 1px -5px 10px rgba(0, 0, 0, .5);
+  box-shadow: 2px -5px 20px rgba(0, 0, 0, .5);
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 20px 20px;
+  padding: 20%;
+  padding-top: 50px;
+  padding-bottom: 0%;
+  background-color: #e1f5f3;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+  height: 1400px;
+}
+
+
+
+
+.occupantstable {
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, .5);
+  border-radius: 50px;
+  grid-area: 1/1/span 1/span 2;
+  background-color: white;
+  max-height: 400px;
+}
+
+.titlediv {
+  max-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  color: white;
+  background-color: var(--hospitalgreen);
+}
+
+.titlediv span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin-left: 70px;
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 100px;
+}
+
+.table {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  height: 80%;
+
+}
+.nameandrolediv{
+  padding: 0%;
+  margin: 0%;
+}
+.table h2 {
+  padding: 0%;
+  margin: 0%;
+  font-size: 30px;
+}
+
+.table h3 {
+  padding: 0%;
+  margin: 0%;
+  margin-top: 5px;
+  font-size: 20px;
+  color: var(--hospitalgreen);
+}
+
+.namediv1 {
+  height: 100px;
+  padding: 0%;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, .4);
+  border-radius: 50px;
+  grid-area: 1/1/span 1/span 1;
+  background-color: var(--pirilightgreen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+}
+
+.profileimg {
+  height: 100px;
+  width: 100px;
+}
+.namediv2 {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, .4);
+  border-radius: 50px;
+  grid-area: 2/1/span 1/span 1;
+  background-color: var(--pirilightgreen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+}
+
+.namediv3 {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, .4);
+  border-radius: 50px;
+  grid-area: 3/1/span 1/span 1;
+  background-color: var(--pirilightgreen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+}
+
+.namediv4 {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, .4);
+  border-radius: 50px;
+  grid-area: 3/2/span 1/span 1;
+  background-color: var(--pirilightgreen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+}
+
+.namediv5 {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, .4);
+  border-radius: 50px;
+  grid-area: 1/2/span 1/span 1;
+  background-color: var(--piriorange);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+}
+
+.namediv6 {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, .4);
+  border-radius: 50px;
+  grid-area: 2/2/span 1/span 1;
+  background-color: var(--piriorange);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+}
+
+
+
+
+.roommap {
+  border-radius: 50px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, .5);
+  grid-area: 2/1/span 1/span 1;
+  background-color: red;
+}
+
+.maintenancediv {
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, .5);
+  border-radius: 50px;
+  grid-area: 3/1/span 1/span 2;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+
+.maintenancediv h1 {
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  background-color: #b2c696;
+  width: 100%;
+  text-align: center;
+}
+
+.maintenancediv h2 {
+  font-size: 50px;
+  padding: 20px;
+  text-align: left;
+}
+
+.maintenancediv h3 {
+  color: #b2c696;
+}
+
+.Consultations {
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, .5);
+  border-radius: 50px;
+  grid-area: 2/2/span 1/span 1;
+  background-color: white;
+  height: 400px;
+}
+
+.ctitle {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: var(--hospitalgreen);
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.consultationdiv {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .4);
+  border-radius: 50px;
+  background-color: var(--pirilightgreen);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.time {
+  color: white;
+  border-radius: 50px;
+  width: 200px;
+  background-color: var(--hospitalgreen);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.name{
+  font-size: 30px;
+}
+.doctorname{
+  font-size: 30px;
 }
