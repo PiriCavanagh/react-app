@@ -872,10 +872,15 @@ body {
 
 
 .roommap {
-  border-radius: 50px;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, .5);
   grid-area: 2/1/span 1/span 1;
-  background-color: red;
+  background-image: url("../src/second_page_components/floorplan.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  border: 7px solid var(--hospitalgreen);
+  position: relative;
 }
 
 .maintenancediv {
@@ -912,7 +917,7 @@ body {
   border-radius: 50px;
   grid-area: 2/2/span 1/span 1;
   background-color: white;
-  height: 400px;
+  height: 500px;
 }
 
 .ctitle {
@@ -934,21 +939,22 @@ body {
   justify-content: space-around;
   align-items: center;
   margin: 20px;
+  text-align: center;
 }
 
 .time {
   color: white;
   border-radius: 50px;
-  width: 200px;
+  width: 170px;
   background-color: var(--hospitalgreen);
   height: 100%;
   display: flex;
   justify-content: center;
-  font-size: 30px;
+  font-size: 25px;
 }
 .name{
-  font-size: 30px;
+  font-size: 20px;
 }
 .doctorname{
-  font-size: 30px;
+  font-size: 20px;
 }
