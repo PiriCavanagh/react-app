@@ -1,10 +1,40 @@
 import '../index.css'
 import Roomcomponent from "./roomcomponent";
+import{useState,useEffect} from "react";
 
 
-const floorplanmap = () => {
+
+
+function floorplanmap(){
+  const [error, setError] = useState(null);
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [items, setItems] = useState([]);
+
+
+  useEffect(() => {
+    fetch("http://54.87.72.37:5000/api/getDummyRoomStatus")
+      .then(res => res.json())
+      .then(
+        (result) => {
+          setIsLoaded(true);
+          setItems(result);
+        },
+        (error) => {
+            setIsLoaded(true);
+            setError(error);
+          }
+        )
+    }, [])
+    if (error) {
+      return <div>Error: {error.message}</div>;
+    } else if (!isLoaded) {
+      return <div>Loading...</div>;
+    } else {
   return (
-    <div class="map">
+<div class="floormap">
+    {items.map(item => (
+    <div class="floormap">
+       <h1> {item.id} {item.inuse} </h1>
       <Roomcomponent fullname="room101" />
       <Roomcomponent fullname="room102" />
       <Roomcomponent fullname="room103" />
@@ -31,35 +61,13 @@ const floorplanmap = () => {
       <div class="whitespace3"></div>
       <div class="whitespace4"></div>
       <div class="whitespace5"></div>
-
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">Recipient:</label>
-                </div>
-                <div class="mb-3">
-                  <label for="message-text" class="col-form-label">Message:</label>
-                  <textarea class="form-control" id="message-text"></textarea>
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Send message</button>
-            </div>
-          </div>
-        </div>
-      </div>
+    </div>
+    
+    ))}
     </div>
 
   );
+}
 }
 
 
