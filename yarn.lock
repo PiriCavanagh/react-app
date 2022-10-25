@@ -7849,6 +7849,13 @@
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.11.tgz"
   "version" "6.0.11"
 
+"react-hook-use-state@^1.1.0":
+  "integrity" "sha512-H75Oe9NG6vbyry1yqlUyfEej5Ana3Q98lFYkIyPhpUt74nhdDHL3qv/FHNK4Qb3naAxroMz3PB9wUxiLHsmouw=="
+  "resolved" "https://registry.npmjs.org/react-hook-use-state/-/react-hook-use-state-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+
 "react-hooks@^1.0.1":
   "integrity" "sha512-PXU08tw4SvKwkW99qgnyV98x939RCmBC6aXqALPQXPjKq6+6EoH79Rz4KdUozzlpSyWmn2IiEm0vh3p+79aP5w=="
   "resolved" "https://registry.npmjs.org/react-hooks/-/react-hooks-1.0.1.tgz"
@@ -7985,6 +7992,11 @@
     "dom-helpers" "^5.0.1"
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
+
+"react-use-effect@^0.0.1":
+  "integrity" "sha512-HCyEfSeDtm6ttSyTcitnx1s9qOf9XkWyXbz6L/nKc/yEvsrSGm1XCPyDPi/8cGg9VekIrQQ/2Gucj0id4HTHGQ=="
+  "resolved" "https://registry.npmjs.org/react-use-effect/-/react-use-effect-0.0.1.tgz"
+  "version" "0.0.1"
 
 "react-use-state@^0.0.1":
   "integrity" "sha512-ifNidDsXy5LB6lJNsYOxDPK71nAOrmWUWAcT5HU+2lcXa7dAJP9G989zm7vcM1Gt49PP2I7m9vlkOdHPCeZauQ=="
