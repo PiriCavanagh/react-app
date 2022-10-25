@@ -1,18 +1,19 @@
-// function person(fullname, roll,doctername) {
-//     this.fullname = fullname
-//     this.roll = roll
-//     this.doctername = doctername
-// }
-// function consulation(starttime,endtime,patientname,doctername) {
-//     this.starttime = starttime
-//     this.endtime = endtime
-//     this.patientname = patientname
-//     this.doctername = doctername
-// }
-// function room(roomnid,usestatus, Occupants[] ,Consultations[]) {
-//     this.roomnid = roomnid
-//     this.usestatus = usestatus
-//     this.Occupants[] = Occupants[]
-//     this.Consultations[] =Consultations[]
-// }
+import{usestate} from "react";
+function person(props) {
+    const [fullname, setfullname] = useState("");
+    const [roll, setroll] = useState("");
+    const [doctername, setdoctername] = useState("");
+}
+function consulation(props) {
+    const [starttime, setstarttime] = useState("");
+    const [endtime, setendtime] = useState("");
+    const [patientname, setpatientname] = useState("");
+    const [doctername, setdoctername] = useState("");
+}
+function room(props) {
+    const [roomid, setroomid] = useState(null);
+    const [usestatus, setusestatus] = useState(false);
+    const [Occupants, setOccupants] = useState([]);
+    const [Consultations, setConsultations] = useState([]);
+}
   
