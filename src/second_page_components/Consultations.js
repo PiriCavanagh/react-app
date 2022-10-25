@@ -1,10 +1,12 @@
+import Fetch from "../components/Fetch";
+
 const Consultations = () => {
     return (
         <div className='Consultations'>
-            <h1 className="ctitle">Scheduled Consultations</h1>
+            <h1 className="ctitle"> </h1>
             <div className="scheduledinfo">
                 <div className="consultationdiv">
-                    <h1 className="time">10:00 - 10:30</h1>
+                    <h1 className="time">{Fetch.item.start_time}</h1>
                     <h2 className="name">Mr. Harry Black</h2>
                     <h3 className="doctorname">Dr. G.Smith</h3>
                 </div>
