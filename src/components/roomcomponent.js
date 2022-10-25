@@ -1,7 +1,7 @@
 import '../index.css'
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
-const Roomcomponent = ({ fullname }) => {
+const Roomcomponent = ({ fullname, color }) => {
     const styles = {
         fontSize: "10px",
         display: "flex",
@@ -11,6 +11,8 @@ const Roomcomponent = ({ fullname }) => {
         borderRadius: "10px",
         margin: "10px",
         fontFamily: "sans-serif",
+        // set color of room here
+        backgroundColor: "red",
         fontWeight: "700",
         fontSize: "15px",
         width: "100px",
