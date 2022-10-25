@@ -7986,6 +7986,11 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
+"react-use-effect@^0.0.1":
+  "integrity" "sha512-HCyEfSeDtm6ttSyTcitnx1s9qOf9XkWyXbz6L/nKc/yEvsrSGm1XCPyDPi/8cGg9VekIrQQ/2Gucj0id4HTHGQ=="
+  "resolved" "https://registry.npmjs.org/react-use-effect/-/react-use-effect-0.0.1.tgz"
+  "version" "0.0.1"
+
 "react-use-state@^0.0.1":
   "integrity" "sha512-ifNidDsXy5LB6lJNsYOxDPK71nAOrmWUWAcT5HU+2lcXa7dAJP9G989zm7vcM1Gt49PP2I7m9vlkOdHPCeZauQ=="
   "resolved" "https://registry.npmjs.org/react-use-state/-/react-use-state-0.0.1.tgz"
