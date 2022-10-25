@@ -13,7 +13,7 @@ function Home() {
             <Floorplanmap />
             <infoModal />
             <Footer done="70"/>
-    </div>
+        </div>
     );
 }
 

@@ -12,7 +12,7 @@ const Roommap = () => {
             <div style={ball}></div>
         </div>
     );
-  }
-  
-  export default Roommap
-  
+}
+
+export default Roommap
+
