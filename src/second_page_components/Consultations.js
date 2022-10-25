@@ -27,7 +27,7 @@ function Consultations() {
           } else {
     return (
         <div className='Consultations'>
-            <h1 className="ctitle"> </h1>
+            <h1 className="ctitle">Scheduled Consultations</h1>
             {items.map(item => (
             <div className="scheduledinfo">
 
