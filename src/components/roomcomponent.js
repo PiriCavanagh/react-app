@@ -12,7 +12,7 @@ const Roomcomponent = ({ fullname, color }) => {
         margin: "10px",
         fontFamily: "sans-serif",
         // set color of room here
-        backgroundColor: "red",
+        backgroundColor: {color},
         fontWeight: "700",
         fontSize: "15px",
         width: "100px",
