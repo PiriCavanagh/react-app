@@ -34,30 +34,19 @@ function Floorplanmap(){
 
 
   return (
-<div class="floormap">
+    <div class="map">
+      <Roomcomponent fullname="room101" color ={1}/>
 
-<Roomcomponent fullname="room101" color ="0" />
-
-    {items.map(item => (
-    <div class="floormap" >
-
-    <Roomcomponent fullname= {item.id}  color={item.inuse}/>
-
-
-    </div>
-    ))}
-    
-    
-
-<div class="whitespace1"></div>
+      {items.map(item => (
+      <Roomcomponent fullname={item.id}  color={item.status}/> 
+      ))}
+      
+      <div class="whitespace1"></div>
       <div class="whitespace2"></div>
       <div class="whitespace3"></div>
       <div class="whitespace4"></div>
       <div class="whitespace5"></div>
     </div>
-
-    
-
   );
 }
 }

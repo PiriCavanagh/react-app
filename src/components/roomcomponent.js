@@ -21,7 +21,7 @@ const Roomcomponent = ({ fullname, color }) => {
     };
     return (
         <div class={fullname}>
-            <Link style={{backgroundColor: color == 0? "red":"green", styles}} to="/room">{fullname}</Link>
+            <Link style={{backgroundColor: color === 0? "red":"green", styles}} to="/room">{fullname}</Link>
         </div>
     );
 }
