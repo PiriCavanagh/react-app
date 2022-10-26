@@ -35,7 +35,7 @@ function Floorplanmap(){
 
   return (
     <div class="map">
-      <Roomcomponent fullname="room101" color ={1}/>
+      <Roomcomponent fullname="room101" color ="1"/>
 
       {items.map(item => (
       <Roomcomponent fullname={item.id}  color={item.status}/> 
