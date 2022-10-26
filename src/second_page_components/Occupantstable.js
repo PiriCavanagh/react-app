@@ -32,7 +32,7 @@ function Occupantstable(){
             <div className="titlediv">Current Occupants :<span></span></div>
             <div className="table">
             {items.map(item => (
-                <div className="namediv1">
+                <div className="namediv">
                     <div><img src={profile} className="profileimg" alt="profile"/></div>
                     <div className='nameandrolediv'><h2>George Smith</h2><h3>General Surgeon</h3></div>
                 </div>

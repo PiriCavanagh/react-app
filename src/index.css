@@ -775,7 +775,7 @@ body {
   padding-top: 20px;
   display: grid;
   grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 50px;
   grid-row-gap: 20px;
   height: 80%;
@@ -799,12 +799,11 @@ body {
   color: var(--hospitalgreen);
 }
 
-.namediv1 {
+.namediv {
   height: 100px;
   padding: 0%;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, .4);
   border-radius: 50px;
-  grid-area: 1/1/span 1/span 1;
   background-color: var(--pirilightgreen);
   display: flex;
   flex-direction: row;
@@ -816,7 +815,7 @@ body {
   height: 100px;
   width: 100px;
 }
-.namediv2 {
+/* .namediv2 {
   box-shadow: 2px 2px 15px rgba(0, 0, 0, .4);
   border-radius: 50px;
   grid-area: 2/1/span 1/span 1;
@@ -869,7 +868,7 @@ body {
   flex-direction: row;
   align-items: center;
   height: 80px;
-}
+} */
 
 
 
