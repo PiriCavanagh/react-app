@@ -10,7 +10,7 @@ const Roomcomponent = ({ fullname, color }) => {
     };
     return (
         <div class={fullname}>
-            <Link style={{backgroundColor: color === 0? "#ff5e5e":"#82ffac", styles, margin: "10px", display: "flex",
+            <Link style={{backgroundColor: color === 1? "#ff5e5e":"#82ffac", styles, margin: "10px", display: "flex",
         justifyContent: "center",
         color: "black",
         border: "none",
