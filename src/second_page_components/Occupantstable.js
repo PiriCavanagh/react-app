@@ -1,6 +1,7 @@
 import profile from '../components/profile1.png'
 import{useState,useEffect} from "react";
-function Occupantstable({}){
+
+function Occupantstable(){
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
@@ -28,7 +29,7 @@ function Occupantstable({}){
 
     return (
         <div className='occupantstable'>
-            <div className="titlediv">Current Occupants :<span>{occupants}</span></div>
+            <div className="titlediv">Current Occupants :<span></span></div>
             <div className="table">
             {items.map(item => (
                 <div className="namediv1">
