@@ -3,7 +3,13 @@ import Roomcomponent from "./roomcomponent";
 import {useState,useEffect} from "react";
 
 
-
+function filterByID(item) {
+  if (Number.isFinite(item.id) && item.id !== 0) {
+    return true;
+  }
+  invalidEntries++;
+  return false;
+}
 
 function Floorplanmap(){
   const [error, setError] = useState(null);
@@ -30,12 +36,16 @@ function Floorplanmap(){
     } else if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
+      let invalidEntries = 0
+      const arrByID = items.filter(filterByID);
+      let percent = invalidEntries/21*100
+      
 
 
 
   return (
     <div class="map">
-      <Roomcomponent fullname="room101" color ="1"/>
+      <Roomcomponent fullname="room101" color ={1}/>
 
       {items.map(item => (
       <Roomcomponent fullname={item.id}  color={item.status}/> 
