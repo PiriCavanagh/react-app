@@ -4,24 +4,23 @@ import {  Link } from "react-router-dom";
 const Roomcomponent = ({ fullname, color }) => {
 
     const styles = {
-        display: "flex",
-        justifyContent: "center",
-        color: "black",
-        border: "none",
-        borderRadius: "10px",
-        margin: "10px",
-        fontFamily: "sans-serif",
-        fontWeight: "700",
-        fontSize: "15px",
-        width: "100px",
-        height: "40px",
-        transition: "all 300ms ease-in-out",
+        
 
      
     };
     return (
         <div class={fullname}>
-            <Link style={{backgroundColor: color === 0? "red":"green", styles}} to="/room">{fullname}</Link>
+            <Link style={{backgroundColor: color === 0? "#ff5e5e":"#82ffac", styles, margin: "10px", display: "flex",
+        justifyContent: "center",
+        color: "black",
+        border: "none",
+        borderRadius: "10px",
+        margin: "15px",
+        fontFamily: "sans-serif",
+        fontWeight: "700",
+        fontSize: "15px",
+        width: "100px",
+        height: "40px",}} to="/room">{fullname}</Link>
         </div>
     );
 }
