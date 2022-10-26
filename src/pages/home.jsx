@@ -11,7 +11,6 @@ function Home() {
             <Header />
             <Levelmenu />
             <Floorplanmap />
-            <infoModal />
             <Footer done="70"/>
         </div>
     );
