@@ -34,7 +34,7 @@ function Floorplanmap(){
 
 
   return (
-<div class="floormap">
+<div class="map">
 
 <Roomcomponent fullname="room101" color ="0" />
 
