@@ -1,6 +1,6 @@
 import '../index.css'
 import Roomcomponent from "./roomcomponent";
-import{useState,useEffect} from "react";
+import {useState,useEffect} from "react";
 
 
 
