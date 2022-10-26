@@ -31,6 +31,8 @@ function Floorplanmap(){
       return <div>Loading...</div>;
     } else {
 
+
+
   return (
 <div class="floormap">
 
@@ -39,7 +41,7 @@ function Floorplanmap(){
     {items.map(item => (
     <div class="floormap" >
 
-    <Roomcomponent fullname= "room103"  color={item.inuse}/>
+    <Roomcomponent fullname= {item.id}  color={item.inuse}/>
 
 
     </div>
