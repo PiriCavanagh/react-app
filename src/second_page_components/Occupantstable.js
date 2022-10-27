@@ -75,6 +75,7 @@ function Occupantstable(){
                     </div>
                 );
             }
+            
             else{
                 return (
                     <div className='occupantstable'>
