@@ -13,6 +13,7 @@ import { useNavigate } from "react-router-dom";
 
 
 function Room() {
+    
     let navigate = useNavigate();
     return (
         <div className='roominfo'>
@@ -27,7 +28,7 @@ function Room() {
                 <h1>Not Available for Booking</h1>
             </div>
             <div className='info'>
-                <Occupantstable occupants="6" />
+                <Occupantstable />
                 <Roommap />
                 <Maintenance />
                 <Consultations />
