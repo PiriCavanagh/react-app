@@ -14,6 +14,7 @@ import In_use_sign from '../second_page_components/In_use_sign';
 
 
 function Room() {
+    
     let navigate = useNavigate();
     return (
         <div className='roominfo'>
@@ -28,7 +29,7 @@ function Room() {
                 <h1>Not Available for Booking</h1>
             </div>
             <div className='info'>
-                <Occupantstable occupants="6" />
+                <Occupantstable />
                 <Roommap />
                 <Maintenance />
                 <Consultations />
