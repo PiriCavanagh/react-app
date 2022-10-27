@@ -35,7 +35,7 @@ function Maintenance(){
           } else {
             var result = items.map(item =>([item.traffic_output]));
             const string = text(result);
-          if (result > 0) {
+          if (result > 5) {
             return (
               <div className='maintenancediv'>
                   <h1>Last Maintenance</h1>
@@ -54,17 +54,6 @@ function Maintenance(){
           );
           }
 
-
-
-            
-      
-    return (
-        <div className='maintenancediv'>
-            <h1>Last Maintenance</h1>
-            <h2>{result} Hours Ago</h2>
-            <h3>{string} </h3>
-        </div>
-    );
   }
 }
   
