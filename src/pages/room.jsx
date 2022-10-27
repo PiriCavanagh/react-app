@@ -10,6 +10,7 @@ import Maintenance from '../second_page_components/Maintenance';
 import Roommap from '../second_page_components/Roommap';
 import Occupantstable from '../second_page_components/Occupantstable';
 import { useNavigate } from "react-router-dom";
+import In_use_sign from '../second_page_components/In_use_sign';
 
 
 function Room() {
@@ -23,7 +24,7 @@ function Room() {
                         <FontAwesomeIcon icon={faAngleLeft} style={{ fontSize: '50px' }}></FontAwesomeIcon>
                     </button>
                     <h2>Room 101</h2>
-                    <h3>In Use</h3>
+                    <In_use_sign />
                 </div>
                 <h1>Not Available for Booking</h1>
             </div>
