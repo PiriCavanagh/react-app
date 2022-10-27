@@ -67,7 +67,7 @@ function Occupantstable(){
             for(let i =0; i < checked;i++){
                 arrayA.push(component)
             }
-            if(result === 0){
+            if(result == 0){
                 return(
                     <div className='occupantstable'>
                         <div className="titlediv">Current Occupants  :<span>   {result} </span></div>
