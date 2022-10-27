@@ -1,6 +1,5 @@
 import profile from '../components/profile1.png'
 import{useState,useEffect} from "react";
-import { faArrowRotateBack } from '@fortawesome/free-solid-svg-icons';
 
 const component = (
     <div className="namediv">
