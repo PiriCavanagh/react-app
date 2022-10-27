@@ -72,7 +72,7 @@ function Occupantstable(){
                     <div className='occupantstable'>
                         <div className="titlediv">Current Occupants  :<span>   {result} </span></div>
                         <div className="table"></div>
-                        </div>
+                    </div>
                 );
             }
             

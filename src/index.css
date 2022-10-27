@@ -23,7 +23,7 @@
 html,
 body {
   background: linear-gradient(to top left, white, #e1f5f3);
-  height: 115%;
+  height: 1200px;
 }
 
 .menu {
@@ -174,6 +174,7 @@ body {
 }
 
 #footer {
+  padding-top: 20px;
   background: none;
   display: flex;
   flex-direction: column;
@@ -182,6 +183,7 @@ body {
 }
 
 .footer h2 {
+  margin-top: 20px;
   height: 50px;
   font-size: clamp(10px, 5vw, 30px);
 }
@@ -781,10 +783,12 @@ body {
   height: 80%;
 
 }
-.nameandrolediv{
+
+.nameandrolediv {
   padding: 0%;
   margin: 0%;
 }
+
 .table h2 {
   padding: 0%;
   margin: 0%;
@@ -815,6 +819,7 @@ body {
   height: 100px;
   width: 100px;
 }
+
 /* .namediv2 {
   box-shadow: 2px 2px 15px rgba(0, 0, 0, .4);
   border-radius: 50px;
@@ -954,9 +959,11 @@ body {
   justify-content: center;
   font-size: 25px;
 }
-.name{
+
+.name {
   font-size: 20px;
 }
-.doctorname{
+
+.doctorname {
   font-size: 20px;
 }
