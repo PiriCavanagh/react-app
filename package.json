@@ -50,7 +50,6 @@
   },
   "devDependencies": {
     "@svgr/cli": "^6.4.0",
-    "react-native-svg-transformer": "^1.0.0",
     "rimraf": "^3.0.2"
   }
 }
