@@ -11,7 +11,7 @@ function Home() {
             <Header />
             <Levelmenu />
             <Floorplanmap />
-            <Footer done="30"/>
+            <Footer />
         </div>
     );
 }
